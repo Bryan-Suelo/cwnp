@@ -51,3 +51,54 @@
     > While RSSI is a common metric as well, engineers prefer dBm because it is an absolute power measurement, whereas RSSI is arbitrary and unique specified by WLAN vendors.
 
 ---
+
+# Chapter 2 - RF Hardware
+
+1. **What two fields make up an RF wave?**
+   
+   _Electric and magnetic_
+   > The electric field forms the E-plane, and the magnetic field forms the H-plane.
+   
+2. **Where are omnidirectional antennas typically placed within a target coverage area?**
+   
+   _Central_
+   > Omnidirectional antennas are usually placed near the center of the coverage area since they radiate out in all directions around the antenna.
+
+3. **What kind of antenna is usually placed at the edge of the target coverage area?**
+
+   _Patch_
+   > Patch and panel antennas are considered semi-directional and are often placed at the edge of a coverage area, for example, on a wall.
+
+4. **What unit is used to measure antenna gain?**
+
+   _dBi_
+   > dBi is preferred by engineers for the measurement of antenna gain. It is relative value since the actual power depends on the amplitude of the input signal power and the metric is defined based on a comparison with an ideal radiator.
+
+5. **Which chart shows the top-down view of an antenna's propagation pattern?**
+   
+   _Azimuth_
+   > The azimuth or horizontal chart shows the top-down view of the radiation pattern.
+
+6. **When are external antennas used for indoor deployments?**
+
+   _When specific coverage is needed_
+   > Most internal office deployments used internal AP antennas. When specific coverage patterns are required, external antennas may be used.
+
+7. **What type of antenna is typically internal to APs?**
+   
+   _Omnidirectional_
+
+8. **Which one of the following antennas would be more likely used in a 4-kilometer bridge link?**
+   
+   _Grid_
+   > Bridge links over greater distances usually use a parabolic dish or grid antenna.
+
+9. **What kind of gain is created by antennas?**
+    
+    _Passive_
+    > Antennas create passive gain because they do not increase the amplitude of the RF signal received, but instead they focus it.
+
+10. **dBi compares a real antenna's gain to what theoretical antenna?**
+
+    _Isotropic_
+    > An isotropic radiator is an ideal theoretical antenna that radiates energy equally in all directions in a spherical pattern.
