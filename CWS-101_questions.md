@@ -102,3 +102,57 @@
 
     _Isotropic_
     > An isotropic radiator is an ideal theoretical antenna that radiates energy equally in all directions in a spherical pattern.
+
+---
+
+# Chapter 2 - RF Hardware
+
+1. **What is the maximum data rate of an HR/DSSS PHY transmission?**
+   
+   _11_
+   > HR/DSSS can support data rates of 1, 2, 5.5 or 11 Mbps.
+   
+2. **In what frequency band does the VHT PHY operate?**
+   
+   _5 GHz_
+   > VHT (802.11ac) operates only in the 5GHz band.
+
+3. **What PHY is designed to use available frequencies in the television space?**
+ 
+   _TVHT_
+   > TVHT implements 802.11 in TV white spaces, which are frequency ranges unused by local television broadcasts.
+
+4. **What PHY is likely to be the most used by low output power, long-range devices that require long battery life?**
+ 
+   _S1G_
+   > S1G-based devices will support long-range communications because of the longer wavelengths used. They can also use lower output power settings and extend battery life.
+
+5. **What amendment is designed optimally for use by IoT devices operating below 1 GHz?**
+ 
+   _802.11ah_
+   > 802.11ah is designed and optimized for use in IoT devices among other such devices.
+
+6. **What is the maximum spatial streams supported by an 802.11n (HT) PHY?**
+ 
+   _4_
+   > HT (802.11n) supportsup to four spatial streams, though most devices in production support three or fewer.
+
+7. **What is the maximum channel width supported by an 802.11ac (VHT) PHY?**
+ 
+   _160MHz_
+   > 802.11ac (VHT) can support up to a 160MHz channel, though they should not be used in any network at this time. A WLAN AP would only rarely need to be configured with channels wider than 40MHz.
+
+8. **What amendment to the 802.11 standard provided for enhanced security to resolve the weakness in WEP?**
+ 
+   _802.11i_
+   > 802.11i introduces TKIP/RC4 (WPA) and CCMP/AES (WPA2).
+
+9. **Why should only 20-MHz channels be used in 2.4GHz WLANs?**
+ 
+   _The available frequencies in the 2.4GHz band are too few to support wider channels_
+   > The 2.4GHz band lacks the frequency space to implement channels wider than 20MHz today effectively.
+
+10. **What amendment to the 802.11 standard provided by QoS in WLANs?**
+ 
+   _802.11e_
+   > 802.11e introduces QoS for WLANs.
