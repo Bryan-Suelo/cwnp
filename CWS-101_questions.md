@@ -208,3 +208,57 @@
 
    _-67dBm_
    > VoIP implementations often recommend signal strengths of -65, -67 or -70 dBm or greater.
+
+---
+
+# Chapter 5 - Wireless Security Fundamentals
+
+1. **What security solution is used to protect against eavesdropping attacks?**
+
+   _Encryption_
+   > Provides confidentiality and is used to protect against eavesdropping.
+
+2. **What authorization technique uses groups or roles to control actions of WLAN?**
+
+   _RBAC_
+   > Role-Based Access Control (RBAC) allows for restrictions of WLAN clients based on group membership or roles.
+
+3. **What encryption solution is used with WPA?**
+
+   _RC4_
+   > WPA is roughly equivalent to TKIP/RC4, so the encryption used is RC4.
+
+4. **What encryption solution is used with WPA2?**
+
+   _AES_
+   > WPA is roughly equivalent to CCMP/AES, so the encryption used is AES.
+
+5. **TKIP/RC4 is the foundation for what Wi-Fi Alliance certification?**
+
+   _WPA_
+   > WPA certifies that devices implement TKIP and RC4 based on the 802.11 standard.
+
+6. **Which one of the following is a deprecated security solution in the 802.11 WLAN standard?**
+
+   _WEP_
+   > Shared Key Authentication, and WPA are all deprecated in the 802.11-2020 standard.
+
+7. **What is used to manage mobile devices in BYOD implementations?**
+
+   _Mobile Device Management (MDM)_
+   > MDM solutions provide for the management of BYOD and enterprise mobile devices.
+
+8. **What WLAN vulnerability takes advantage of human manipulation to gain access to the network?**
+
+   _Social Engineering_
+   > Social Engineering uses manipulation tactics to obtain information that should not otherwise be provided.
+
+9. **What is used by WPA2-Enterprise for authentication and key provisioning?**
+
+   _802.1X/EAP_
+   > WPA and WPA2-Enterprise use 802.11X/EAP for the authentication and key provisioning. The source materials from the 802.11X/EAP authentication are used in the four-way handshake to generate the encryption keys.
+
+10. **What string is usually passed through a defined algorithm to generat the PSK used in WPA2-Personal deployments?**
+
+   _Passphrase_
+   > A passphrase is passed through a defined algorithm to generate the pre-shared key (PSK) in most implementations.
