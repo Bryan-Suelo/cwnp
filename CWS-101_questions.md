@@ -262,3 +262,56 @@
 
    _Passphrase_
    > A passphrase is passed through a defined algorithm to generate the pre-shared key (PSK) in most implementations.
+   ---
+
+# Chapter 6 - Wireless Network Performance Factors
+
+1. **What is a unique defining characteristic of an MBSS?**
+
+   _It allows communications with nodes that are not directly connected_
+   > An MBSS allows mesh nodes to communicate with other mesh nodes without being directly connected with them. IBSS network devices can only communicate directly with other IBSS devices. BSS devices can only communicate with the AP directly in most networks.
+
+2. **Through what must an MBSS communicate to access an infrastructure BSS?**
+
+   _Mesh gate_
+   > A mesh gate is used to allow the MBSS to communicate with an infrastructure BSS. The communication may occur through a device that is both an AP to the BSS and a mesh gate and mesh node to the MBSS.
+
+3. **What is a 1x1:1 radio system also known as?**
+
+   _SISO_
+   > A device with 1 Tx radio chain, 1 Rx radio chain and 1 spatial stream is a SISO device. 
+
+4. **How many receive radio chains does a 4x3:3 device have?**
+
+   _3_
+   > The second part of the nomenclature defines the Rx radio chains; therefore , a 4x3:3 device supports 3 Rx radio chains.
+
+5. **What is a defining characteristic of a MIMO 802.11 device?**
+
+   _Support for multiple spatial streams_
+   > Unlike SISO devices, MIMO devices support multiple spatial streams.
+
+6. **What RF phenomenom does MIMO take advantage of to increase the data rate of the transmission?**
+
+   _Multipath_
+   > Multipath effects are detrimental to SISO communications and provide advantage in MIMO communications to allow for multiple spatial streams.
+
+7. **QoS is guaranteed in 802.11 networks?**
+
+   _False_
+   > QoS is not guaranteed in 802.11 networks. It is a probabilistic QoS. You could argue that it is guaranteed within the device, but gaining access to the medium is still contention based.
+
+8. **What kind of communication needs QoS in wireless networks?**
+
+   _Voice_
+   > Voice communications require QoS in wired and wireless networks.
+
+9. **What functionality of the 802.11 standard decreases or increases the data rate in a WiFi link based on signal Quality?**
+
+   _Dynamic Rate Switching (DRS)_
+   > DRS decreases and increases the data rate in a link as the signal quality changes. It decreases or increases to the next available modulation and coding rate as specified in the standard.
+
+10. **What kind of frame may be used to implement backward compatilibity in 802.11 networks?**
+
+   _CTS to Self_
+   > Backward compatilibity can be performed with RTS/CST frames or with a single CTS to Self frame.
