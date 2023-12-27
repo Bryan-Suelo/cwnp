@@ -262,7 +262,8 @@
 
    _Passphrase_
    > A passphrase is passed through a defined algorithm to generate the pre-shared key (PSK) in most implementations.
-   ---
+
+---
 
 # Chapter 6 - Wireless Network Performance Factors
 
@@ -315,3 +316,53 @@
 
    _CTS to Self_
    > Backward compatilibity can be performed with RTS/CST frames or with a single CTS to Self frame.
+
+---
+
+# Chapter 7 - Wireless Access Points, Coordinators, Gateways and Controllers
+
+1. **What document may be used to learn about the details of a specific AP model?**
+
+   _Spec Sheet_
+   > The specification sheet or data sheet may be used to gather details about the features and capabilities of an AP model.
+
+2. **What external component of an AP may be documented in a spec sheet?**
+
+   _LEDs_
+   > External components such as LEDs, wired ports, reset buttons and mounting options are often defined
+
+3. **When an AP can simultaneously operate in the 2.4GHz and 5Ghz bands, what it is called?**
+
+   _Dual-band concurrent_
+
+4. **When are external antennas most likely to be used?**
+
+   _Warehouse_
+   > External antennas are likely to be used in warehouses, manufacturing plants, outdoor deployments and high density scenarios.
+
+5. **What is the power provided to a powered device when 802.3af is used?**
+
+   _12.95 watts_
+
+6. **What is the power provided to a powered device when 802.3at is used?**
+
+   _25.5 watts_
+
+7. **What specific technology allows an AP to transmit more than one client at the same time?**
+
+   _MU-MIMO_
+   > MIMO is used, but the specific technology is multi user MIMO (MU-MIMO)
+
+8. **What skill set is required to understand how the details in a spec sheet may apply to real world deployments?**
+
+   _Translation to marketing language_
+
+9. **What protocol should not be used to manage an AP?**
+
+   _HTTP_
+   > Protocols that send information as clear text (HTTP, Telnet, etc.) should not be used for AP management.
+
+10. **What solution is used to allow controller based APs to send data directly to the destination on the wired network?**
+
+   _Distributed forwarding_
+   > Distributed data forwarding, or simply distributed forwarding, allows APs to send data directly to the destination on the network.
