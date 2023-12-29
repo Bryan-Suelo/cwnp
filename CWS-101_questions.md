@@ -329,7 +329,7 @@
 2. **What external component of an AP may be documented in a spec sheet?**
 
    _LEDs_
-   > External components such as LEDs, wired ports, reset buttons and mounting options are often defined
+   > External components such as LEDs, wired ports, reset buttons and mounting options are often defined.
 
 3. **When an AP can simultaneously operate in the 2.4GHz and 5Ghz bands, what it is called?**
 
@@ -366,3 +366,56 @@
 
    _Distributed forwarding_
    > Distributed data forwarding, or simply distributed forwarding, allows APs to send data directly to the destination on the network.
+
+---
+
+# Chapter 8 - Wireless Clients and IoT End Devices
+
+1. **What kind of client devices should be purchased if at all possible?**
+
+   _Multi-band_
+   > Multi-band devices are the best choice. This allows for access to 5GHz APs.
+
+2. **What kind of client device typically has replaceable wireless NIC?**
+
+   _Laptop_
+   > Laptop computers use mini-PCIe, half mini-PCIe, and NGFF (M.2) adapters, which are usually replaceable.
+
+3. **What is the maximum number of spatial streams that are supported by mobiles phones?**
+
+   _2_
+   > Two spatial streams are the maximum number supported  by most mobile phones and tablets, and many still only support one spatial stream.
+
+4. **Why is an internal wireless PCI NIC sometimes problematic for desktop computers?**
+
+   _The antennas are often located under the user's desk_
+   > Because the antennas protrude from the back of the desktop computer and the computer is often placed under the desk on the floor, the antennas are not optimally located.
+
+5. **Why should you update to the latest drivers for a USB device?**
+
+   _To enable all possible features_
+   > When purchasing USB adapters, it is not uncommon for the shipping driver to lack support for some features. For example, several multi-band devices have been sold over the years that require driver updates to enable 5GHz operations.
+
+6. **What PHY do most wireless door locks support as the highest data rate PHY?**
+
+   _802.11g_
+   > Support up to ERP.
+
+7. **What three bands may be supported in modern multi-band devices?**
+
+   _2.4, 5 and 60GHz_
+
+8. **What is required to accomplish the highest speeds that are advertised for an AP?**
+
+   _Client devices supporting matching capabilities_
+   > In order to achieve 
+
+9. **What channel is typically not supported by 802.11n and earlier PHYs?**
+
+   _144_
+   > Channel 144 was introduced in 802.11ac and is usually not supported by 802.11n and older devices.
+
+10. **When documenting applications, what metric is important to calculate the number of APs and cell sizes that are required?**
+
+   _Number of expected users_
+   > Four factors are important when considering the number of APs and sizes for wireless cells: latency tolerance, throughput requirements, utilization and number of users.
