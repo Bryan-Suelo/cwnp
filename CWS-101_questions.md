@@ -419,3 +419,56 @@
 
    _Number of expected users_
    > Four factors are important when considering the number of APs and sizes for wireless cells: latency tolerance, throughput requirements, utilization and number of users.
+
+---
+
+# Chapter 9 - Wireless Solution Requirements
+
+1. **What facility issue may impact RF behavior in hospitals around X-ray rooms?**
+
+   _Metal-lined walls_
+   > X-ray rooms may have metal-lined walls that prohibit RF communications and must be accounted for in hospital deployments.
+
+2. **What factor impacts capacity in a conference center or arena when large events are held there that may not impact it when smaller events are held?**
+
+   _Density of people_
+   > Humans absorb RF energy, and when more people are in a space, it will impact the signal strenght and propagation, though a significant increase in people is required to have a negative impact.
+
+3. **What should always be performed in a WLAN deployment even if it is just an expansion of an existing WLAN?**
+
+   _Site survey_
+   > A site survey should always be performed to gather important information like existing channels used, non-Wi-Fi interferers and RF propagation behaviors in the targeted coverage areas.
+
+4. **What is a common problem related to DHCP when deploying WLANs?**
+
+   _Pool depletion_
+   > DHCP pools offer a limited number of IP addresses. When WLANs are added to existing networks, it is not uncommon for the pools to be depleted, resulting in an apparent connection problem for client devices that is actually a network problem, while the wireless link is functioning properly.
+
+5. **What kind of device provides power across a PoE cable to a non-PoE device?**
+
+   _PoE splitter_
+   > A PoE splitter will split the power from a PoE source back into separate power and data cables and can be used to power a non-PoE device.
+
+6. **Why would a PoE cable be limited to a shorter length than a typical Ehternet data-only cable?**
+
+   _The PoE power can cause interferences on the ethernet data wires_
+   > PoE cables sometimes require shorter cables than typical Ethernet cables because the PoE power can cause interference with the Ethernet data wires in the cable.
+
+7. **What is often missing from a logical network diagram?**
+
+   _Physical locations of devices_
+   > In many cases, logical network diagrams provide no information about physical locations. This information is required to determine necessary cable lengths for the WLAN deployment.
+
+8. **Which one of the following is not a factor considered when selecting an AP for capacity-based deplyments?**
+
+   _Outdoor networks lack environmental components that attenuate the signal_
+   > Because capacity-based deployments rarely use output power levels on APs that are close to the maximum available, the maximum output power available is not usually a factor.
+
+9. **Why are outdoor networks often more challenging from a capacity perspective than indoor networks?**
+
+   _Outdoor networks lack environmental environmental components that attenuate the signal_
+   > In outdoor deployments, walls, windows, and doors are not available to attenuate signals, which makes the capacity design more challenging.
+
+10. **What use case requires QoS and 100-200 Kbps of throughput with low latency?**
+
+   _VoIP_
