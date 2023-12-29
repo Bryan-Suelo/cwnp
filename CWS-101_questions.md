@@ -262,7 +262,8 @@
 
    _Passphrase_
    > A passphrase is passed through a defined algorithm to generate the pre-shared key (PSK) in most implementations.
-   ---
+
+---
 
 # Chapter 6 - Wireless Network Performance Factors
 
@@ -315,3 +316,106 @@
 
    _CTS to Self_
    > Backward compatilibity can be performed with RTS/CST frames or with a single CTS to Self frame.
+
+---
+
+# Chapter 7 - Wireless Access Points, Coordinators, Gateways and Controllers
+
+1. **What document may be used to learn about the details of a specific AP model?**
+
+   _Spec Sheet_
+   > The specification sheet or data sheet may be used to gather details about the features and capabilities of an AP model.
+
+2. **What external component of an AP may be documented in a spec sheet?**
+
+   _LEDs_
+   > External components such as LEDs, wired ports, reset buttons and mounting options are often defined.
+
+3. **When an AP can simultaneously operate in the 2.4GHz and 5Ghz bands, what it is called?**
+
+   _Dual-band concurrent_
+
+4. **When are external antennas most likely to be used?**
+
+   _Warehouse_
+   > External antennas are likely to be used in warehouses, manufacturing plants, outdoor deployments and high density scenarios.
+
+5. **What is the power provided to a powered device when 802.3af is used?**
+
+   _12.95 watts_
+
+6. **What is the power provided to a powered device when 802.3at is used?**
+
+   _25.5 watts_
+
+7. **What specific technology allows an AP to transmit more than one client at the same time?**
+
+   _MU-MIMO_
+   > MIMO is used, but the specific technology is multi user MIMO (MU-MIMO)
+
+8. **What skill set is required to understand how the details in a spec sheet may apply to real world deployments?**
+
+   _Translation to marketing language_
+
+9. **What protocol should not be used to manage an AP?**
+
+   _HTTP_
+   > Protocols that send information as clear text (HTTP, Telnet, etc.) should not be used for AP management.
+
+10. **What solution is used to allow controller based APs to send data directly to the destination on the wired network?**
+
+   _Distributed forwarding_
+   > Distributed data forwarding, or simply distributed forwarding, allows APs to send data directly to the destination on the network.
+
+---
+
+# Chapter 8 - Wireless Clients and IoT End Devices
+
+1. **What kind of client devices should be purchased if at all possible?**
+
+   _Multi-band_
+   > Multi-band devices are the best choice. This allows for access to 5GHz APs.
+
+2. **What kind of client device typically has replaceable wireless NIC?**
+
+   _Laptop_
+   > Laptop computers use mini-PCIe, half mini-PCIe, and NGFF (M.2) adapters, which are usually replaceable.
+
+3. **What is the maximum number of spatial streams that are supported by mobiles phones?**
+
+   _2_
+   > Two spatial streams are the maximum number supported  by most mobile phones and tablets, and many still only support one spatial stream.
+
+4. **Why is an internal wireless PCI NIC sometimes problematic for desktop computers?**
+
+   _The antennas are often located under the user's desk_
+   > Because the antennas protrude from the back of the desktop computer and the computer is often placed under the desk on the floor, the antennas are not optimally located.
+
+5. **Why should you update to the latest drivers for a USB device?**
+
+   _To enable all possible features_
+   > When purchasing USB adapters, it is not uncommon for the shipping driver to lack support for some features. For example, several multi-band devices have been sold over the years that require driver updates to enable 5GHz operations.
+
+6. **What PHY do most wireless door locks support as the highest data rate PHY?**
+
+   _802.11g_
+   > Support up to ERP.
+
+7. **What three bands may be supported in modern multi-band devices?**
+
+   _2.4, 5 and 60GHz_
+
+8. **What is required to accomplish the highest speeds that are advertised for an AP?**
+
+   _Client devices supporting matching capabilities_
+   > In order to achieve 
+
+9. **What channel is typically not supported by 802.11n and earlier PHYs?**
+
+   _144_
+   > Channel 144 was introduced in 802.11ac and is usually not supported by 802.11n and older devices.
+
+10. **When documenting applications, what metric is important to calculate the number of APs and cell sizes that are required?**
+
+   _Number of expected users_
+   > Four factors are important when considering the number of APs and sizes for wireless cells: latency tolerance, throughput requirements, utilization and number of users.
