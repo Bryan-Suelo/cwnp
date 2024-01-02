@@ -69,3 +69,15 @@
 - MDM can be used to manage BYOD and enterprise devices.
 - Guest networks may be separated from enterprise networks with VLANs or tunnels.
 - SSIDs can be mapped to different VLANs to constrain the connecting device's network access.
+
+## Chapter 6 - Wireless Network Performance Factors
+
+- An MBSS is a mesh BSS and does not include a standard infrastructure BSS, but it may connect to one through a mesh gate.
+- An MBSS is different from an IBSS (ad-hoc) because mesh STAs may be able to communicate with other mesh STAs to which they are not directly connected.
+- MIMO systems use multiple antennas to send multiple spatial streams.
+- The nomenclature for MIMO radio chains is `Tx radio chain x Rx radio chain : spatial streams`. An example is that 3x3:2 supports `3 Tx and Rx radio chains but only 2 spatial streams`.
+- When two 802.11 devices communicate, the lowest common denominator related to spatial streams, channel widths and supported PHYs will determine the communications method.
+- QoS is implemented in 802.11 networks within each STA and gives probabilistic priority to important packets, such as voice and video communications.
+- DRS decreases or increases the data rate in a wireless link based on the signal quality of the link.
+- Backward compatibility is achieved by supporting older PHYs that operate in the same band as the device and implementing RTS/CTS or CTS-to-self.
+- OKC is propietary standard for FSR, and FT is the 802.11 standard method of FSR.

@@ -256,9 +256,7 @@
    _Passphrase_
    > A passphrase is passed through a defined algorithm to generate the pre-shared key (PSK) in most implementations.
 
----
-
-# Chapter 6 - Wireless Network Performance Factors
+## Chapter 6 - Wireless Network Performance Factors
 
 1. **What is a unique defining characteristic of an MBSS?**
 
@@ -310,9 +308,7 @@
    _CTS to Self_
    > Backward compatilibity can be performed with RTS/CST frames or with a single CTS to Self frame.
 
----
-
-# Chapter 7 - Wireless Access Points, Coordinators, Gateways and Controllers
+## Chapter 7 - Wireless Access Points, Coordinators, Gateways and Controllers
 
 1. **What document may be used to learn about the details of a specific AP model?**
 
