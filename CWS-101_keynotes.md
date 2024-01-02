@@ -81,3 +81,47 @@
 - DRS decreases or increases the data rate in a wireless link based on the signal quality of the link.
 - Backward compatibility is achieved by supporting older PHYs that operate in the same band as the device and implementing RTS/CTS or CTS-to-self.
 - OKC is propietary standard for FSR, and FT is the 802.11 standard method of FSR.
+
+## Chapter 7 - Wireless Access Points, Coordinators, Gateways and Controllers
+
+- A specifications sheet (spec sheet) provides detailed information about device features and capabilities, and APs typically have spec sheets.
+- Spec sheets or data sheets often provide external views of the AP with details about LEDs, ports and mounting options.
+- A dual-band concurrent AP is one that can run in the 2.4 GHz and 5 GHz bands at the same time.
+- Most APs support all older PHYs as well as the stated AP PHY (such as an 802.11ac AP) in the same band for backward compatibility.
+- Internal antennas are often used for standard office deployments, but external antennas are often desired in special use cases, such as warehouses, outdoor deployments, and large venues.
+- When PoE is available for an AP, it is important to know what version of PoE is required: 802.3af (12.95 watts delivered to the powered device) or 802.3at (25.5 watts delivered to the powered device).
+- APs often support three operating modes: Access Point, Bridge, and Repeater.
+- Output power settings should be configured in relation to the regulatory constraints in which the AP operates.
+- Identifying the radio chain supported is a key factor in selecting APs.
+- Translating marketing language into real-world deployments is a skillset that the CWS candidate should develop.
+- Controller based APs may use centralized data forwarding or distributed data forwarding.
+- Cloud-based APs are typically configured (as well as monitored and managed) from the cloud, but operations can continue if the cloud is unavailable.
+
+## Chapter 8 - Wireless Clients and IoT End Devices
+
+- Most laptops have internal wireless NICs that are often upgradeable with mini-PCIe, half mini-PCIe or NGFF (M.2).
+- Laptops and desktops can also use USB Wlan adapters.
+- Using an internal PCI adapter on a desktop may not provide optimal wireless communications due to the location of the antennas.
+- Tablets and mobile phones do not offer replaceable wireless adapters; therefore, the specifications must be known and accomodated.
+- Many tablets and mobile phones are single-stream devices; this is intentional in order to reduce battery drainage.
+- Most 2.4 GHz devices support all available channels in a regulatory domain or at least channels 1 through 11.
+- 5 GHz devices often do not support the middle range of channels from 100 to 144.
+- Channel 144 was first introduced in the 802.11ac amendment to the 802.11 standard.
+- Channel 36 to 48 and 149 to 165 are supported by the vast majority of wireless clients.
+- Multi-band devices support at least the 2.4 GHz and 5 GHz bands, and some newer devices also support the 60 GHz, though they are few at the time of writting.
+- Latency, throughput, utilization and the number of users are key factors in determining the needed number of APs and cell sizes in a WLAN deployment.
+
+## Chapter 9 - Wireless Solution Requirements
+
+- Existing Wi-Fi implementations impact new installations because they generate RF signals that must be accounted for when planning for expansion or upgrade.
+- Neighbor WLANs must also be considered based on the RF signals they radiate.
+- Several network services are required for the typical WLAN to function properly, including DHCP, DNS, time servers, switching and routing.
+- PoE requirements must be met, including PoE type, cable length constraints and the power budget in switches.
+- Coverage should be defined by area including signal strength requirements.
+- Capacity zones should be defined including signal strength requirements, the number of client devices and the throughput demands of those devices.
+- Network diagrams are useful when identifying available network services and, potentially, required cable lengths.
+- Bridge links must be carefully planned and include factors such as required received signal strength, antenna gain, link distance and output power.
+- Outdoor capacity can be more challenging since walls, doors and other items do not exist to attenuate the signals.
+- Security constraints in WLANs include regulatory, industry and organizational policy constraints.
+- Changes made to WLAN configuration settings should be validated against policies.
+- Public Wi-Fi networks may use captive portals for user authentication or simply to require user agreement with aceptable use policies.
