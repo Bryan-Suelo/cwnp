@@ -256,9 +256,7 @@
    _Passphrase_
    > A passphrase is passed through a defined algorithm to generate the pre-shared key (PSK) in most implementations.
 
----
-
-# Chapter 6 - Wireless Network Performance Factors
+## Chapter 6 - Wireless Network Performance Factors
 
 1. **What is a unique defining characteristic of an MBSS?**
 
@@ -310,9 +308,7 @@
    _CTS to Self_
    > Backward compatilibity can be performed with RTS/CST frames or with a single CTS to Self frame.
 
----
-
-# Chapter 7 - Wireless Access Points, Coordinators, Gateways and Controllers
+## Chapter 7 - Wireless Access Points, Coordinators, Gateways and Controllers
 
 1. **What document may be used to learn about the details of a specific AP model?**
 
@@ -360,9 +356,7 @@
    _Distributed forwarding_
    > Distributed data forwarding, or simply distributed forwarding, allows APs to send data directly to the destination on the network.
 
----
-
-# Chapter 8 - Wireless Clients and IoT End Devices
+## Chapter 8 - Wireless Clients and IoT End Devices
 
 1. **What kind of client devices should be purchased if at all possible?**
 
@@ -401,7 +395,6 @@
 8. **What is required to accomplish the highest speeds that are advertised for an AP?**
 
    _Client devices supporting matching capabilities_
-   > In order to achieve 
 
 9. **What channel is typically not supported by 802.11n and earlier PHYs?**
 
@@ -413,9 +406,7 @@
    _Number of expected users_
    > Four factors are important when considering the number of APs and sizes for wireless cells: latency tolerance, throughput requirements, utilization and number of users.
 
----
-
-# Chapter 9 - Wireless Solution Requirements
+## Chapter 9 - Wireless Solution Requirements
 
 1. **What facility issue may impact RF behavior in hospitals around X-ray rooms?**
 
