@@ -1,4 +1,6 @@
-# Chapter 1 - Radio Frequency (RF)
+# Certified Wireless Specialist 
+
+## Chapter 1 - Radio Frequency (RF)
 
 1. **What denotes the strength of an RF wave or signal?**
 
@@ -13,7 +15,7 @@
 3. **What RF behavior is similar to ligth waves as seen in a mirror?**
 
    _Reflection_
-   > Reflection occursin RF waves as well as ligth waves and is analogous to ligth in a mirror.
+   > Reflection occurs in RF waves as well as ligth waves and is analogous to ligth in a mirror.
 
 4. **What kind of modulation is not used in WLANs?**
 
@@ -50,9 +52,7 @@
     _dBm_
     > While RSSI is a common metric as well, engineers prefer dBm because it is an absolute power measurement, whereas RSSI is arbitrary and unique specified by WLAN vendors.
 
----
-
-# Chapter 2 - RF Hardware
+## Chapter 2 - RF Hardware
 
 1. **What two fields make up an RF wave?**
 
@@ -103,9 +103,7 @@
     _Isotropic_
     > An isotropic radiator is an ideal theoretical antenna that radiates energy equally in all directions in a spherical pattern.
 
----
-
-# Chapter 3 - RF Hardware
+## Chapter 3 - RF Hardware
 
 1. **What is the maximum data rate of an HR/DSSS PHY transmission?**
 
@@ -157,9 +155,7 @@
    _802.11e_
    > 802.11e introduces QoS for WLANs.
 
----
-
-# Chapter 4 - Channel Plans and Performance Factors
+## Chapter 4 - Channel Plans and Performance Factors
 
 1. **What metric is typically used to define coverage requirements?**
 
@@ -194,7 +190,6 @@
 7. **What environment is most likely to use 4OMHz channels in the 5GHz bands?**
 
    _Standard office space_
-   >
 
 8. **How many 20MHz channels are available in the 5GHz band based on the 802.11 standard without consideration for regulatory domains?**
 
@@ -209,9 +204,7 @@
    _-67dBm_
    > VoIP implementations often recommend signal strengths of -65, -67 or -70 dBm or greater.
 
----
-
-# Chapter 5 - Wireless Security Fundamentals
+## Chapter 5 - Wireless Security Fundamentals
 
 1. **What security solution is used to protect against eavesdropping attacks?**
 
